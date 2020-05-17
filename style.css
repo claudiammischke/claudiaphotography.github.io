@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Source+Sans+Pro:ital,wght@0,400;1,400;1,700&display=swap');
+
+
+    
+}
+h1 {
+  text-align: center;
+}
+p{
+  padding-left: 20px;
+  text-align: left;
+}
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #0077B5;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body{
+	
+	background:#F7F5F7;
+
+}
+nav{
+	background:#201B21;
+	padding: 0px;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left:0;
+}
+li {
+  display: inline;
+}
+body, html {
+    height: 100%;
+}
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F54938 ;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #C7C1B5  ;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/henry.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #C7C1B5 ;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+}
+nav a:link { color:#000333;}
+nav a: visited { color:344873;}
+nav a: hover { color:#ffffff;}
+nav a:active { color:#000000;}
+nav li{
+          display:inline-block;
+
+}
+nav a{
+          padding:0em;
+          text-decoration:;
+          color:white;
+
+}
+main{
+	max-width:1200px;
+	margin:0 auto;
+}
+
+
+	
+}
+h1{
+	text-align:center;
+}
+h1,h2{ 
+	font-family: 'Lobster Two', cursive;
+	color:#C7C1B5 ;
+}
+h5{
+  
+  padding-left: 20px;
+}
+
+/* Mobile Menu */
+}
+.menu{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items: center;
+}
+
+/* CSS Adjustments for Tablets */
+}@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
